@@ -3,6 +3,7 @@ h1 {
   font-size: 75px;
   color: green;
   float: right;
+
 }
 
 h2 {
@@ -15,8 +16,9 @@ h3 {
 }
 
 h4 {
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
+  margin-left: 80px;
 }
 
 ul {
@@ -33,19 +35,30 @@ img {
   height: 50%;
 }
 
+.column {
+  width: 50%;
+  float: left;
+}
+
 .no {
   color: red;
   font-style: italic;
 }
 
 .sidebar {
-  width: 50%;
-  /* float: left; */
+  margin-top: 70px;
+  padding: 4px 4px 4px 12px;
+
   background-color: #e5ca42;
 }
 
-/* .rightSide {
-  width: 50%;
-  float: ri;
-  background-color: #e5ca42;
-} */
+.rightSide {
+  /* width: 30%; */
+  background-color: #ff6100;
+  padding: 4px 4px 4px 12px;
+  margin-top: 70px;
+}
+
+p.disclaimer {
+  padding-top: 30px;
+}
